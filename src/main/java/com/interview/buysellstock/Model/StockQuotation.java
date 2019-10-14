@@ -19,4 +19,8 @@ public class StockQuotation implements IStockQuotation {
     public void setToSellOrToPurchase(StockPurpose purpose) {
 
     }
+
+    public void setOwner(IUser user) {
+
+    }
 }

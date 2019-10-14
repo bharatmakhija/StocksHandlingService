@@ -8,5 +8,5 @@ public interface IStockQuotation {
     public void setNumberOfStocks(int numberOfStocks);
     public void setSingleStockPrice(double price);
     public void setToSellOrToPurchase(StockPurpose purpose);
-
+    public void setOwner(IUser user);
 }
