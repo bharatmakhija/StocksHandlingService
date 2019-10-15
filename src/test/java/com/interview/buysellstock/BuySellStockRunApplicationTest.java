@@ -2,6 +2,8 @@ package com.interview.buysellstock;
 
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -9,7 +11,7 @@ import static org.mockito.Mockito.when;
 public class BuySellStockRunApplicationTest {
 
     @Test
-    public void testMainApplicationStart(){
+    public void testMainApplicationStart() throws IOException {
         BuySellStockRunApplication buySellStockRunApplication = mock(BuySellStockRunApplication.class);
         BuySellStockRunApplication.setApp(buySellStockRunApplication);
         String[] args = {};
